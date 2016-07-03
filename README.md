@@ -5,7 +5,7 @@ Dot Net solution using Domain Driven Design concepts
 
 This project was modeled after some Pluralsight examples related to Domain Driven Design including:
 - [Domain-Driven Design Fundamentals by Steve Smith and Julie Lerman](https://app.pluralsight.com/library/courses/domain-driven-design-fundamentals/table-of-contents)
-- [Modern Software Architecture: Domain Models, CQRS and Event Sourcing(https://app.pluralsight.com/library/courses/modern-software-architecture-domain-models-cqrs-event-sourcing/table-of-contents)
+- [Modern Software Architecture: Domain Models, CQRS and Event Sourcing](https://app.pluralsight.com/library/courses/modern-software-architecture-domain-models-cqrs-event-sourcing/table-of-contents)
 
 ## Getting Started
 
