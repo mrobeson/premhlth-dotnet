@@ -5,7 +5,7 @@ using System.Web.Mvc;
 
 namespace PremiseResidentProgram.Web.Models
 {
-    public class CreateAppointmentViewModel
+    public class CreateShiftViewModel
     {
         public int PatientId { get; set; }
         public int ClientId { get; set; }
@@ -15,37 +15,23 @@ namespace PremiseResidentProgram.Web.Models
         public string Details { get; set; }
     }
 
-    public class ClientViewModel
+    public class ResidentViewModel
     {
-        public int ClientId { get; set; }
         public string FullName { get; set; }
-        public IEnumerable<PatientViewModel> Patients { get; set; }
+        public IEnumerable<ResidentViewModel> Residents { get; set; }
     }
 
-    public class PatientViewModel
+    public class AdministratorViewModel
     {
-        public int PatientId { get; set; }
-        public String Name { get; set; }
-        public int? PreferredDoctorId { get; set; }
+        public String FullName { get; set; }
+        //public IEnumerable<AdministratortViewModel> Residents { get; set; }
     }
 
-    public class AppointmentTypeViewModel
+    public class ShiftViewModel
     {
-        public int AppointmentTypeId { get; set; }
-        public String Name { get; set; }
-        public string Code { get; set; }
-        public int Duration { get; set; }
-    }
-
-    public class AppointmentViewModel
-    {
-        public Guid AppointmentId { get; set; }
+        public Guid ShiftId { get; set; }
         //public int AppointmentTypeId { get; set; }
-        public int RoomId { get; set; }
-        public int? DoctorId { get; set; }
-        public int ClientId { get; set;  }
-        public int PatientId { get; set; }
-        public string PatientName { get; set; }
+        public int ResidentId { get; set; }
         public DateTime Start { get; set; }
         public DateTime End { get; set; }
         public object StartTimezone { get; set; }
@@ -54,9 +40,6 @@ namespace PremiseResidentProgram.Web.Models
         public object RecurrenceID { get; set; }
         public object RecurrenceException { get; set; }
         public string Title { get; set; }
-        public string Description { get; set; }
-        public bool IsAllDay { get; set; }
-        public AppointmentTypeViewModel AppointmentType { get; set; }
         public bool IsPotentiallyConflicting { get; set; }
         public bool IsConfirmed { get; set; }
     }

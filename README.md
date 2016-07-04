@@ -39,4 +39,9 @@ SharedDatabaseManagementTools | ResidentCalendar.SharedDatabase
 SharedDatabaseManagementTools | SharedDatabaseTests 
 SharedKernel | PremiseResidentProgram.SharedKernel
 
-- This project utilizes the scheduler and grid controls from Telerik Kendo UI (a third party)
+- This project utilizes the scheduler and grid controls from Telerik Kendo UI (a third party).   Additionally, mroSignalR is used as well.
+
+![alt tag](https://github.com/mrobeson/premhlth-dotnet/tree/master/PremiseResidentProgram.Web/Images/GitHub/kendo_ui.jpeg)
+![alt tag](https://github.com/mrobeson/premhlth-dotnet/tree/master/PremiseResidentProgram.Web/Images/GitHub/signalr.png)
+
+![alt tag](https://github.com/mrobeson/premhlth-dotnet/tree/master/PremiseResidentProgram.Web/Images/GitHub/vs_screenshot.png)

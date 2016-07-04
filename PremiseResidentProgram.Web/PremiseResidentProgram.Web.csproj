@@ -128,11 +128,10 @@
     <Content Include="global.asax" />
     <Content Include="Images\accent.png" />
     <Content Include="Images\bullet.png" />
-    <Content Include="Images\Clients\Steve_Smith.jpg" />
-    <Content Include="Images\Doctors\Dr_McDreamy.jpg" />
-    <Content Include="Images\Doctors\Dr_Smith.jpg" />
-    <Content Include="Images\Doctors\Dr_Who.jpg" />
-    <Content Include="Images\Doctors\No_Doctor_Selected.jpg" />
+    <Content Include="Images\GitHub\kendo_ui.jpeg" />
+    <Content Include="Images\Residents\Steve_Smith.jpg" />
+    <Content Include="Images\GitHub\signalr.png" />
+    <Content Include="Images\GitHub\vs_screenshot.png" />
     <Content Include="Images\heroAccent.png" />
     <Content Include="Images\orderedList0.png" />
     <Content Include="Images\orderedList1.png" />
@@ -144,32 +143,6 @@
     <Content Include="Images\orderedList7.png" />
     <Content Include="Images\orderedList8.png" />
     <Content Include="Images\orderedList9.png" />
-    <Content Include="Images\Patients\Allegra.jpg" />
-    <Content Include="Images\Patients\Anubis.jpg" />
-    <Content Include="Images\Patients\Bella.jpg" />
-    <Content Include="Images\Patients\Boots.jpg" />
-    <Content Include="Images\Patients\Butterfinger.jpg" />
-    <Content Include="Images\Patients\Callie.jpg" />
-    <Content Include="Images\Patients\charlie.jpg" />
-    <Content Include="Images\Patients\Corde.jpg" />
-    <Content Include="Images\Patients\darwin.jpg" />
-    <Content Include="Images\Patients\Finley.jpg" />
-    <Content Include="Images\Patients\Ginger.jpg" />
-    <Content Include="Images\Patients\Indiana Jones.jpg" />
-    <Content Include="Images\Patients\Lizzie.jpg" />
-    <Content Include="Images\Patients\Luabelle.jpg" />
-    <Content Include="Images\Patients\Lulu.jpg" />
-    <Content Include="Images\Patients\Pax.jpg" />
-    <Content Include="Images\Patients\Piper.jpg" />
-    <Content Include="Images\Patients\radar.jpg" />
-    <Content Include="Images\Patients\Rocky.jpg" />
-    <Content Include="Images\Patients\Rufus.JPG" />
-    <Content Include="Images\Patients\rumor.jpg" />
-    <Content Include="Images\Patients\Ruske.jpg" />
-    <Content Include="Images\Patients\sampson.jpg" />
-    <Content Include="Images\Patients\Tinkerbell.jpg" />
-    <Content Include="Images\Patients\Zak.jpg" />
-    <Content Include="Images\Patients\zoe.jpg" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\HelpPageApiModel.cshtml" />
@@ -261,14 +234,11 @@
     <Compile Include="Hubs\AppointmentUpdateHandler.cs" />
     <Compile Include="Hubs\HubActivator.cs" />
     <Compile Include="Hubs\ScheduleHub.cs" />
-    <Compile Include="Models\CreateAppointmentViewModel.cs" />
-    <Compile Include="Models\DoctorViewModel.cs" />
-    <Compile Include="Models\OfficeSettings.cs" />
+    <Compile Include="Models\CreateShittViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Images\GitHub\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ResidentAdministratorManagement\ResidentAdministrator.Data\ResidentAdministratorManagement.Data.csproj">
