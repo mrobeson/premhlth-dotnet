@@ -45,4 +45,4 @@ SharedKernel | PremiseResidentProgram.SharedKernel
 ![Kendo_UI](http://ioui.idrottonline.se/Content/images/kendo-logo.png)
 ![SignalR](https://cmatskas.com/content/images/2015/11/signalr-logopng.png)
 
-![VS 2015 Screen Shot](https://s32.postimg.org/9edk3w045/vs_screenshot.png)
+![VS 2015 Screen Shot](https://s31.postimg.org/yo4597bor/vs_screenshot.png)
