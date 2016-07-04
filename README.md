@@ -9,24 +9,6 @@ This project was modeled after some Pluralsight examples related to Domain Drive
 
 ## Getting Started
 
-#### Developing
-
-1. Run `npm install` to install server dependencies.
-
-2. Run `bower install` to install front-end dependencies.
-
-3. Run `mongod` in a separate shell to keep an instance of the MongoDB Daemon running
-
-4. Run `gulp serve` to start the development server. It should automatically open the client in your browser when ready.
-
-### Build & development
-
-Run `grunt build` for building and `grunt serve` for preview.
-
-### Testing
-
-Running `npm test` will run the unit tests with karma.
-
 # Terminology
 
 Term | Description
@@ -46,15 +28,15 @@ Shift | This is a time-boxed user defined construct which consists of a title, a
 Considering the sub-domains and bounded context defined in the analysis.  
 The solution is structured as follows:
 
-Context | Project | Description
--------------- | --------------- | ---------------
-Web UI | PremiseResidentProgram.Web | a
-ResidentAdministratorManagement | ResidentAdministratorManagement.Core | Core
-ResidentAdministratorManagement | ResidentAdministratorManagement.Data | Data
-ResidentAdministratorManagement | ResidentAdministratorManagement.UnitTests | UnitTests
-ResourceCalendar | ResourceCalendar.Core | Core
-SharedDatabaseManagementTools | ResidentCalendar.SharedDatabase | a
-SharedDatabaseManagementTools | SharedDatabaseTests | b
-SharedKernel | PremiseResidentProgram.SharedKernel | a
+Context | Project 
+-------------- | ---------------
+Web UI | PremiseResidentProgram.Web
+ResidentAdministratorManagement | ResidentAdministratorManagement.Core
+ResidentAdministratorManagement | ResidentAdministratorManagement.Data 
+ResidentAdministratorManagement | ResidentAdministratorManagement.UnitTests
+ResourceCalendar | ResourceCalendar.Core
+SharedDatabaseManagementTools | ResidentCalendar.SharedDatabase
+SharedDatabaseManagementTools | SharedDatabaseTests 
+SharedKernel | PremiseResidentProgram.SharedKernel
 
 - This project utilizes the scheduler and grid controls from Telerik Kendo UI (a third party)
