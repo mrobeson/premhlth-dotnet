@@ -41,7 +41,10 @@ SharedKernel | PremiseResidentProgram.SharedKernel
 
 - This project utilizes the scheduler and grid controls from Telerik Kendo UI (a third party).   Additionally, mroSignalR is used as well.
 
-![alt tag](https://github.com/mrobeson/premhlth-dotnet/tree/master/PremiseResidentProgram.Web/Images/GitHub/kendo_ui.jpeg)
-![alt tag](https://github.com/mrobeson/premhlth-dotnet/tree/master/PremiseResidentProgram.Web/Images/GitHub/signalr.png)
+![Kendo_UI](https://github.com/mrobeson/premhlth-dotnet/tree/master/PremiseResidentProgram.Web/Images/GitHub/kendo_ui.jpeg)
+![SignalR](https://github.com/mrobeson/premhlth-dotnet/tree/master/PremiseResidentProgram.Web/Images/GitHub/signalr.png)
 
-![alt tag](https://github.com/mrobeson/premhlth-dotnet/tree/master/PremiseResidentProgram.Web/Images/GitHub/vs_screenshot.png)
+[[https://github.com/mrobeson/premhlth-dotnet/tree/master/PremiseResidentProgram.Web/Images/GitHub/kendo_ui.jpeg|alt=kendo-ui]]
+![Kendo_UI](http://thoughtbot.com/images/tm/logo.png)
+![Kendo_UI](https://github.com/mrobeson/premhlth-dotnet/tree/master/PremiseResidentProgram.Web/Images/GitHub/kendo_ui.jpeg)
+![VS 2015 Screen Shot](https://github.com/mrobeson/premhlth-dotnet/tree/master/PremiseResidentProgram.Web/Images/GitHub/vs_screenshot.png)
