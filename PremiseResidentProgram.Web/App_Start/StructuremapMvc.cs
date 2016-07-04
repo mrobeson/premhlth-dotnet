@@ -19,11 +19,11 @@ using System.Web.Http;
 using System.Web.Mvc;
 using Microsoft.AspNet.SignalR;
 using StructureMap;
-using FrontDesk.Web.DependencyResolution;
+using PremiseResidentProgram.Web.DependencyResolution;
 
-[assembly: WebActivator.PreApplicationStartMethod(typeof(FrontDesk.Web.AppStart.StructuremapMvc), "Start")]
+[assembly: WebActivator.PreApplicationStartMethod(typeof(PremiseResidentProgram.Web.AppStart.StructuremapMvc), "Start")]
 
-namespace FrontDesk.Web.AppStart {
+namespace PremiseResidentProgram.Web.AppStart {
     public static class StructuremapMvc {
         public static void Start() {
 			IContainer container = IoC.Initialize();

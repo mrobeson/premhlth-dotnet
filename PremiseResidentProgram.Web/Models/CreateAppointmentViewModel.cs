@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Mvc;
 
-namespace FrontDesk.Web.Models
+namespace PremiseResidentProgram.Web.Models
 {
     public class CreateAppointmentViewModel
     {

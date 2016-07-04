@@ -1,7 +1,7 @@
 using Microsoft.AspNet.SignalR.Hubs;
 using StructureMap;
 
-namespace FrontDesk.Web.Hubs
+namespace PremiseResidentProgram.Web.Hubs
 {
     public class HubActivator : IHubActivator
     {

@@ -22,7 +22,7 @@ using System.Web.Http.Dependencies;
 using Microsoft.Practices.ServiceLocation;
 using StructureMap;
 
-namespace FrontDesk.Web.DependencyResolution
+namespace PremiseResidentProgram.Web.DependencyResolution
 {
     /// <summary>
     /// The structure map dependency scope.

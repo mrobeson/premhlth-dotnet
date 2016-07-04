@@ -7,9 +7,9 @@ using System.Linq;
 using System.Net.Http.Headers;
 using System.Web.Http;
 using System.Web.Http.Description;
-using FrontDesk.Web.Areas.HelpPage.Models;
+using PremiseResidentProgram.Web.Areas.HelpPage.Models;
 
-namespace FrontDesk.Web.Areas.HelpPage
+namespace PremiseResidentProgram.Web.Areas.HelpPage
 {
     public static class HelpPageConfigurationExtensions
     {

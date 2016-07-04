@@ -16,7 +16,7 @@
 using System.Web.Http.Dependencies;
 using StructureMap;
 
-namespace FrontDesk.Web.DependencyResolution
+namespace PremiseResidentProgram.Web.DependencyResolution
 {
     /// <summary>
     /// The structure map dependency resolver.

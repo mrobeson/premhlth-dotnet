@@ -1,6 +1,6 @@
 using System;
 
-namespace FrontDesk.Web.Models
+namespace PremiseResidentProgram.Web.Models
 {
     public class DoctorViewModel
     {

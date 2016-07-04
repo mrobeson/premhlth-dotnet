@@ -1,7 +1,7 @@
 using System.Web.Http;
 using System.Web.Mvc;
 
-namespace FrontDesk.Web.Areas.HelpPage
+namespace PremiseResidentProgram.Web.Areas.HelpPage
 {
     public class HelpPageAreaRegistration : AreaRegistration
     {

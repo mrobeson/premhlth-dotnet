@@ -1,9 +1,9 @@
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
-using FrontDesk.Web.Areas.HelpPage.Models;
+using PremiseResidentProgram.Web.Areas.HelpPage.Models;
 
-namespace FrontDesk.Web.Areas.HelpPage.Controllers
+namespace PremiseResidentProgram.Web.Areas.HelpPage.Controllers
 {
     /// <summary>
     /// The controller that will handle requests for the help page.

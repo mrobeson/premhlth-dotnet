@@ -1,0 +1,10 @@
+C:\github\prem-dn\ResidentAdministratorManagement\ResidentAdministratorManagement.Core\bin\Debug\ResidentAdministratorManagement.Core.dll
+C:\github\prem-dn\ResidentAdministratorManagement\ResidentAdministratorManagement.Core\bin\Debug\ResidentAdministratorManagement.Core.pdb
+C:\github\prem-dn\ResidentAdministratorManagement\ResidentAdministratorManagement.Core\obj\Debug\ResidentAdministratorManagement.Core.csprojResolveAssemblyReference.cache
+C:\github\prem-dn\ResidentAdministratorManagement\ResidentAdministratorManagement.Core\obj\Debug\ResidentAdministratorManagement.Core.dll
+C:\github\prem-dn\ResidentAdministratorManagement\ResidentAdministratorManagement.Core\obj\Debug\ResidentAdministratorManagement.Core.pdb
+C:\github\prem-dn\ResidentAdministratorManagement\ResidentAdministratorManagement.Core\bin\Debug\PremiseResidentProgram.SharedKernel.dll
+C:\github\prem-dn\ResidentAdministratorManagement\ResidentAdministratorManagement.Core\bin\Debug\StructureMap.dll
+C:\github\prem-dn\ResidentAdministratorManagement\ResidentAdministratorManagement.Core\bin\Debug\PremiseResidentProgram.SharedKernel.pdb
+C:\github\prem-dn\ResidentAdministratorManagement\ResidentAdministratorManagement.Core\bin\Debug\StructureMap.pdb
+C:\github\prem-dn\ResidentAdministratorManagement\ResidentAdministratorManagement.Core\bin\Debug\StructureMap.xml

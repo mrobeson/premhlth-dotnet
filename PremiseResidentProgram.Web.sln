@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ResourceCalendar", "ResourceCalendar", "{9DC7A90D-E3D1-4981-8709-72D2A9D4BDE4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. ResourceCalendar", "1. ResourceCalendar", "{9DC7A90D-E3D1-4981-8709-72D2A9D4BDE4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{EA5F3CAD-CB63-4A41-9AC4-82A4369D7AD2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ResidentAdministratorManagement", "ResidentAdministratorManagement", "{1D30CD68-2B59-4F92-AA3E-7B3AEF1EEDD1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. ResidentAdministratorManagement", "2. ResidentAdministratorManagement", "{1D30CD68-2B59-4F92-AA3E-7B3AEF1EEDD1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedKernel", "SharedKernel", "{4C22CB49-1D4A-4C2D-8E7B-1E5F1626A714}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. SharedKernel", "4. SharedKernel", "{4C22CB49-1D4A-4C2D-8E7B-1E5F1626A714}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedDatabaseManagementTools", "SharedDatabaseManagementTools", "{7593B258-7212-468E-A498-0825CA617E36}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. SharedDatabaseManagementTools", "3. SharedDatabaseManagementTools", "{7593B258-7212-468E-A498-0825CA617E36}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PremiseResidentProgram.Web", "PremiseResidentProgram.Web\PremiseResidentProgram.Web.csproj", "{0CA8E924-A2E8-47A2-95A1-0DD14EF57762}"
 EndProject
@@ -29,10 +29,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedDatabaseTests", "Shar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PremiseResidentProgram.SharedKernel", "SharedKernel\PremiseResidentProgram.SharedKernel\PremiseResidentProgram.SharedKernel.csproj", "{9CFE3CD3-B88F-4725-B2F4-6A43618CEA74}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2312330D-E852-44A1-A86A-001D2D3DC7AE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Solution Items", "5. Solution Items", "{2312330D-E852-44A1-A86A-001D2D3DC7AE}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourceCalendar.Data", "ResourceCalendar\Infrastructure\ResourceCalendar.Data\ResourceCalendar.Data.csproj", "{A2F513A1-EBB5-4D69-9F23-EE1DE3B06144}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -72,6 +74,10 @@ Global
 		{9CFE3CD3-B88F-4725-B2F4-6A43618CEA74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CFE3CD3-B88F-4725-B2F4-6A43618CEA74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CFE3CD3-B88F-4725-B2F4-6A43618CEA74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2F513A1-EBB5-4D69-9F23-EE1DE3B06144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2F513A1-EBB5-4D69-9F23-EE1DE3B06144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2F513A1-EBB5-4D69-9F23-EE1DE3B06144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2F513A1-EBB5-4D69-9F23-EE1DE3B06144}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,5 +91,6 @@ Global
 		{05949101-65A2-468B-9A50-CF5CFEBC7A6C} = {7593B258-7212-468E-A498-0825CA617E36}
 		{4691EFDB-E2A6-4C49-A2E5-ED4896E705CA} = {7593B258-7212-468E-A498-0825CA617E36}
 		{9CFE3CD3-B88F-4725-B2F4-6A43618CEA74} = {4C22CB49-1D4A-4C2D-8E7B-1E5F1626A714}
+		{A2F513A1-EBB5-4D69-9F23-EE1DE3B06144} = {EA5F3CAD-CB63-4A41-9AC4-82A4369D7AD2}
 	EndGlobalSection
 EndGlobal

@@ -4,7 +4,7 @@ using System.Linq;
 using Microsoft.AspNet.SignalR;
 using StructureMap;
 
-namespace FrontDesk.Web.DependencyResolution
+namespace PremiseResidentProgram.Web.DependencyResolution
 {
     //public class SignalRSmDependencyResolver : DefaultDependencyResolver
     //{

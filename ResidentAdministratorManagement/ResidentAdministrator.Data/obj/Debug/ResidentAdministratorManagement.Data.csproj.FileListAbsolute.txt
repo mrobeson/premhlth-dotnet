@@ -1,0 +1,12 @@
+C:\github\prem-dn\ResidentAdministratorManagement\ResidentAdministrator.Data\bin\Debug\ResidentAdministrator.Data.dll
+C:\github\prem-dn\ResidentAdministratorManagement\ResidentAdministrator.Data\bin\Debug\ResidentAdministrator.Data.pdb
+C:\github\prem-dn\ResidentAdministratorManagement\ResidentAdministrator.Data\obj\Debug\ResidentAdministratorManagement.Data.csprojResolveAssemblyReference.cache
+C:\github\prem-dn\ResidentAdministratorManagement\ResidentAdministrator.Data\obj\Debug\ResidentAdministrator.Data.dll
+C:\github\prem-dn\ResidentAdministratorManagement\ResidentAdministrator.Data\obj\Debug\ResidentAdministrator.Data.pdb
+C:\github\prem-dn\ResidentAdministratorManagement\ResidentAdministrator.Data\bin\Debug\ResidentAdministrator.Data.dll.config
+C:\github\prem-dn\ResidentAdministratorManagement\ResidentAdministrator.Data\bin\Debug\EntityFramework.dll
+C:\github\prem-dn\ResidentAdministratorManagement\ResidentAdministrator.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\github\prem-dn\ResidentAdministratorManagement\ResidentAdministrator.Data\bin\Debug\ResidentAdministratorManagement.Core.dll
+C:\github\prem-dn\ResidentAdministratorManagement\ResidentAdministrator.Data\bin\Debug\ResidentAdministratorManagement.Core.pdb
+C:\github\prem-dn\ResidentAdministratorManagement\ResidentAdministrator.Data\bin\Debug\EntityFramework.xml
+C:\github\prem-dn\ResidentAdministratorManagement\ResidentAdministrator.Data\bin\Debug\EntityFramework.SqlServer.xml

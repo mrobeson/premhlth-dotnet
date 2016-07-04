@@ -1,0 +1,4 @@
+C:\github\prem-dn\ResidentAdministratorManagement\ResidentAdministratorManagement.UnitTests\bin\Debug\ResidentAdministratorManagement.UnitTests.dll
+C:\github\prem-dn\ResidentAdministratorManagement\ResidentAdministratorManagement.UnitTests\bin\Debug\ResidentAdministratorManagement.UnitTests.pdb
+C:\github\prem-dn\ResidentAdministratorManagement\ResidentAdministratorManagement.UnitTests\obj\Debug\ResidentAdministratorManagement.UnitTests.dll
+C:\github\prem-dn\ResidentAdministratorManagement\ResidentAdministratorManagement.UnitTests\obj\Debug\ResidentAdministratorManagement.UnitTests.pdb

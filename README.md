@@ -1,4 +1,4 @@
-# premhlth-dotnet" 
+# premhlth-dotnet
 Dot Net solution using Domain Driven Design concepts 
 
 # Instructions
@@ -57,4 +57,4 @@ SharedDatabaseManagementTools | ResidentCalendar.SharedDatabase | a
 SharedDatabaseManagementTools | SharedDatabaseTests | b
 SharedKernel | PremiseResidentProgram.SharedKernel | a
 
-![alt tag](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+- This project utilizes the scheduler and grid controls from Telerik Kendo UI (a third party)

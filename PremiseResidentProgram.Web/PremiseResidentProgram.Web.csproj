@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" />
   <Import Project="..\ResourceCalendar.Core\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\ResourceCalendar.Core\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="..\ResourceCalendar.Core\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\ResourceCalendar.Core\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
@@ -43,8 +45,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\ResourceCalendar.Core\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
@@ -123,6 +125,7 @@
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="global.asax" />
     <Content Include="Images\accent.png" />
     <Content Include="Images\bullet.png" />
     <Content Include="Images\Clients\Steve_Smith.jpg" />
@@ -167,7 +170,6 @@
     <Content Include="Images\Patients\Tinkerbell.jpg" />
     <Content Include="Images\Patients\Zak.jpg" />
     <Content Include="Images\Patients\zoe.jpg" />
-    <Content Include="packages.config" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\HelpPageApiModel.cshtml" />
@@ -181,14 +183,14 @@
     <Content Include="Areas\HelpPage\Views\Web.config" />
     <Content Include="Areas\HelpPage\Views\_ViewStart.cshtml" />
     <Content Include="Scripts\jquery-2.0.3.min.map" />
-    <Content Include="Views\Home\Clients.cshtml" />
-    <Content Include="Views\Home\Doctors.cshtml" />
+    <Content Include="Views\Home\Residents.cshtml" />
+    <Content Include="Views\Home\Administrators.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\Rooms.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -242,18 +244,20 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
-    <Compile Include="Controllers\Api\AppointmentsController.cs" />
-    <Compile Include="Controllers\Api\AppointmentTypesController.cs" />
-    <Compile Include="Controllers\Api\ClientsController.cs" />
+    <Compile Include="Controllers\Api\CalendarController.cs" />
+    <Compile Include="Controllers\Api\AdministratorController.cs" />
     <Compile Include="Controllers\Api\crud\CrudClientsController.cs" />
     <Compile Include="Controllers\Api\crud\CrudDoctorsController.cs" />
     <Compile Include="Controllers\Api\crud\CrudRoomsController.cs" />
-    <Compile Include="Controllers\Api\DoctorsController.cs" />
+    <Compile Include="Controllers\Api\ResidentController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="DependencyResolution\IoC.cs" />
     <Compile Include="DependencyResolution\SignalRSmDependencyResolver.cs" />
     <Compile Include="DependencyResolution\StructureMapDependencyResolver.cs" />
     <Compile Include="DependencyResolution\StructureMapDependencyScope.cs" />
+    <Compile Include="global.asax.cs">
+      <DependentUpon>global.asax</DependentUpon>
+    </Compile>
     <Compile Include="Hubs\AppointmentUpdateHandler.cs" />
     <Compile Include="Hubs\HubActivator.cs" />
     <Compile Include="Hubs\ScheduleHub.cs" />
@@ -265,6 +269,28 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Images\GitHub\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ResidentAdministratorManagement\ResidentAdministrator.Data\ResidentAdministratorManagement.Data.csproj">
+      <Project>{a8c39c64-ed9c-4c18-8793-536a8d240f34}</Project>
+      <Name>ResidentAdministratorManagement.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ResidentAdministratorManagement\ResidentAdministratorManagement.Core\ResidentAdministratorManagement.Core.csproj">
+      <Project>{cc05dae0-311e-454e-8ce5-72878daa5152}</Project>
+      <Name>ResidentAdministratorManagement.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ResourceCalendar\Infrastructure\ResourceCalendar.Data\ResourceCalendar.Data.csproj">
+      <Project>{a2f513a1-ebb5-4d69-9f23-ee1de3b06144}</Project>
+      <Name>ResourceCalendar.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ResourceCalendar\ResourceCalendar.Core\ResourceCalendar.Core.csproj">
+      <Project>{c9a7fd2e-e5a5-4273-bc1a-e60cf1bafa41}</Project>
+      <Name>ResourceCalendar.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SharedDatabaseManagementTools\ResidentCalendar.SharedDatabase\ResidentCalendar.SharedDatabase.csproj">
+      <Project>{05949101-65a2-468b-9a50-cf5cfebc7a6c}</Project>
+      <Name>ResidentCalendar.SharedDatabase</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -297,6 +323,8 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\ResourceCalendar.Core\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\ResourceCalendar.Core\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
     <Error Condition="!Exists('..\ResourceCalendar.Core\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\ResourceCalendar.Core\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
   </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

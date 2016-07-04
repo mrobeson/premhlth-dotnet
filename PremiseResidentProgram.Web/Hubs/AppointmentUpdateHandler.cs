@@ -3,7 +3,7 @@ using AppointmentScheduling.Core.Model.Events;
 using FrontDesk.SharedKernel.Interfaces;
 using Microsoft.AspNet.SignalR;
 
-namespace FrontDesk.Web.Hubs
+namespace PremiseResidentProgram.Web.Hubs
 {
     public class AppointmentUpdateHandler : IHandle<AppointmentUpdatedEvent>
     {

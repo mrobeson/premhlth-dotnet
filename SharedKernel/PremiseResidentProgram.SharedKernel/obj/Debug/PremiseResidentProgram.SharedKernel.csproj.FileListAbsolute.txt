@@ -1,0 +1,13 @@
+C:\github\prem-dn\SharedKernel\PremiseResidentProgram.SharedKernel\bin\Debug\PremiseResidentProgram.SharedKernel.dll
+C:\github\prem-dn\SharedKernel\PremiseResidentProgram.SharedKernel\bin\Debug\PremiseResidentProgram.SharedKernel.pdb
+C:\github\prem-dn\SharedKernel\PremiseResidentProgram.SharedKernel\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\github\prem-dn\SharedKernel\PremiseResidentProgram.SharedKernel\bin\Debug\nunit.framework.dll
+C:\github\prem-dn\SharedKernel\PremiseResidentProgram.SharedKernel\bin\Debug\StructureMap.dll
+C:\github\prem-dn\SharedKernel\PremiseResidentProgram.SharedKernel\bin\Debug\StructureMap.Net4.dll
+C:\github\prem-dn\SharedKernel\PremiseResidentProgram.SharedKernel\bin\Debug\nunit.framework.xml
+C:\github\prem-dn\SharedKernel\PremiseResidentProgram.SharedKernel\bin\Debug\StructureMap.pdb
+C:\github\prem-dn\SharedKernel\PremiseResidentProgram.SharedKernel\bin\Debug\StructureMap.xml
+C:\github\prem-dn\SharedKernel\PremiseResidentProgram.SharedKernel\bin\Debug\StructureMap.Net4.pdb
+C:\github\prem-dn\SharedKernel\PremiseResidentProgram.SharedKernel\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\github\prem-dn\SharedKernel\PremiseResidentProgram.SharedKernel\obj\Debug\PremiseResidentProgram.SharedKernel.dll
+C:\github\prem-dn\SharedKernel\PremiseResidentProgram.SharedKernel\obj\Debug\PremiseResidentProgram.SharedKernel.pdb

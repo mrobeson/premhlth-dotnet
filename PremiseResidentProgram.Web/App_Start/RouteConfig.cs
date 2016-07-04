@@ -3,7 +3,7 @@ using System.Linq;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace FrontDesk.Web.AppStart
+namespace PremiseResidentProgram.Web
 {
     public class RouteConfig
     {

@@ -1,0 +1,5 @@
+C:\github\prem-dn\ResourceCalendar\ResourceCalendar.Core\bin\Debug\ResourceCalendar.Core.dll
+C:\github\prem-dn\ResourceCalendar\ResourceCalendar.Core\bin\Debug\ResourceCalendar.Core.pdb
+C:\github\prem-dn\ResourceCalendar\ResourceCalendar.Core\obj\Debug\ResourceCalendar.Core.csprojResolveAssemblyReference.cache
+C:\github\prem-dn\ResourceCalendar\ResourceCalendar.Core\obj\Debug\ResourceCalendar.Core.dll
+C:\github\prem-dn\ResourceCalendar\ResourceCalendar.Core\obj\Debug\ResourceCalendar.Core.pdb

@@ -19,14 +19,14 @@ using AppointmentScheduling.Data.Repositories;
 using ClientPatientManagement.Core.Interfaces;
 using ClientPatientManagement.Data;
 using FrontDesk.SharedKernel.Interfaces;
-using FrontDesk.Web.Models;
+using PremiseResidentProgram.Web.Models;
 using Microsoft.AspNet.SignalR;
 using Microsoft.AspNet.SignalR.Hubs;
 using Microsoft.AspNet.SignalR.Infrastructure;
 using Owin;
 using StructureMap;
 
-namespace FrontDesk.Web.DependencyResolution
+namespace PremiseResidentProgram.Web.DependencyResolution
 {
     public static class IoC {
         public static IContainer Initialize() {

@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Web.Mvc;
 
-namespace FrontDesk.Web.Controllers
+namespace PremiseResidentProgram.Web.Controllers
 {
     public class HomeController : Controller
     {
@@ -11,17 +11,12 @@ namespace FrontDesk.Web.Controllers
             return View();
         }
 
-        public ActionResult Doctors()
+        public ActionResult Residents()
         {
             return View();
         }
 
-        public ActionResult Rooms()
-        {
-            return View();
-        }
-
-        public ActionResult Clients()
+        public ActionResult Administrators()
         {
             return View();
         }

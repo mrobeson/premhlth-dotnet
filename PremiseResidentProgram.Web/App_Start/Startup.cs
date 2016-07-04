@@ -5,8 +5,8 @@ using StructureMap;
 using System;
 using System.Linq;
 
-[assembly: OwinStartup(typeof(FrontDesk.Web.AppStart.Startup))]
-namespace FrontDesk.Web.AppStart
+[assembly: OwinStartup(typeof(PremiseResidentProgram.Web.Startup))]
+namespace PremiseResidentProgram.Web.AppStart
 {
     public class Startup
     {

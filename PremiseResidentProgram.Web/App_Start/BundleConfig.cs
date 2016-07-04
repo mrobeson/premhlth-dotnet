@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace FrontDesk.Web
+namespace PremiseResidentProgram.Web
 {
     public class BundleConfig
     {

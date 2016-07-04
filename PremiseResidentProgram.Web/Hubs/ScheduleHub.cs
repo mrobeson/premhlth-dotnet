@@ -4,7 +4,7 @@ using StructureMap;
 using System;
 using System.Linq;
 
-namespace FrontDesk.Web.Hubs
+namespace PremiseResidentProgram.Web.Hubs
 {
     public class ScheduleHub : Hub
     {

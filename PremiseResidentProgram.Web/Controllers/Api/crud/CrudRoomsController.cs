@@ -6,7 +6,7 @@ using System.Web.Http;
 using ClientPatientManagement.Core.Model;
 using ClientPatientManagement.Core.Interfaces;
 
-namespace FrontDesk.Web.Controllers.Api.Crud
+namespace PremiseResidentProgram.Web.Controllers.Api.Crud
 {
     public class CrudRoomsController : ApiController
     {

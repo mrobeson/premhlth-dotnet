@@ -1,0 +1,7 @@
+C:\github\prem-dn\SharedDatabaseManagementTools\SharedDatabaseTests\bin\Debug\SharedDatabaseTests.dll
+C:\github\prem-dn\SharedDatabaseManagementTools\SharedDatabaseTests\bin\Debug\SharedDatabaseTests.pdb
+C:\github\prem-dn\SharedDatabaseManagementTools\SharedDatabaseTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\github\prem-dn\SharedDatabaseManagementTools\SharedDatabaseTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\github\prem-dn\SharedDatabaseManagementTools\SharedDatabaseTests\obj\Debug\SharedDatabaseTests.csprojResolveAssemblyReference.cache
+C:\github\prem-dn\SharedDatabaseManagementTools\SharedDatabaseTests\obj\Debug\SharedDatabaseTests.dll
+C:\github\prem-dn\SharedDatabaseManagementTools\SharedDatabaseTests\obj\Debug\SharedDatabaseTests.pdb

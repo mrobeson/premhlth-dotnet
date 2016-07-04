@@ -2,7 +2,7 @@
 using System;
 using System.Linq;
 
-namespace FrontDesk.Web.Models
+namespace PremiseResidentProgram.Web.Models
 {
     public class OfficeSettings : IApplicationSettings
     {

@@ -1,0 +1,1 @@
+C:\github\prem-dn\SharedDatabaseManagementTools\ResidentCalendar.SharedDatabase\obj\Debug\ResidentCalendar.SharedDatabase.csprojResolveAssemblyReference.cache

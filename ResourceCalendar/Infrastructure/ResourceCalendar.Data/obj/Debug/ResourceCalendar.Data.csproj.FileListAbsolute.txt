@@ -1,0 +1,1 @@
+C:\github\prem-dn\ResourceCalendar\Infrastructure\ResourceCalendar.Data\obj\Debug\ResourceCalendar.Data.csprojResolveAssemblyReference.cache
